@@ -1,0 +1,6 @@
+[package]
+name = "bevy_apps_learning"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
