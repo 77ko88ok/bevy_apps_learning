@@ -11,3 +11,4 @@ Query<&mut >
 ## todo
 - Query内のwithの挙動
 - #[derive()]はstructごとに必要？
+- timerなどのリソースのドキュメントの読み方
