@@ -17,4 +17,4 @@ implementations欄のパブリックのメソッドを呼び出す
 ## todo
 - Query内のwithの挙動
 - #[derive()]はstructごとに必要？
-- timerなどのリソースの
+- ジェネリックプラグインとは？
