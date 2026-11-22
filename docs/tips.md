@@ -16,7 +16,9 @@ implementations欄のパブリックのメソッドを呼び出す
 ### impl Plugin for 
 - このPluginは、Bevyのtrait [Plugin](https://docs.rs/bevy/latest/bevy/app/trait.Plugin.html)
 
+### derive
+- #[derive(...)]は構造体ごとに必要
+
 ## todo
 - Query内のwithの挙動
-- #[derive()]はstructごとに必要？
 - ジェネリックプラグインとは？
