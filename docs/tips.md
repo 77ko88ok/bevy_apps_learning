@@ -13,6 +13,8 @@ Query<&mut >
 implementations欄のパブリックのメソッドを呼び出す
 例えば、[Timer.from_seconds](https://docs.rs/bevy/latest/bevy/time/struct.Timer.html#method.from_seconds)
 
+### impl Plugin for 
+- このPluginは、Bevyのtrait [Plugin](https://docs.rs/bevy/latest/bevy/app/trait.Plugin.html)
 
 ## todo
 - Query内のwithの挙動
