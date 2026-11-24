@@ -5,9 +5,10 @@ pub struct HelloPlugin;
 impl Plugin for HelloPlugin {
     fn build(&self, app: &mut App) {
         // add thins to your app here
-        app.insert_resource(GreetTimer(Timer::from_seconds(2.0, TimerMode::Repeating)));
-        app.add_systems(Startup, add_people);
-        app.add_systems(Update, (hello_world, (update_people, greet_people).chain()));
+        app
+        .insert_resource(GreetTimer(Timer::from_seconds(2.0, TimerMode::Repeating)))
+        .add_systems(Startup, add_people)
+        .add_systems(Update, (hello_world, (update_people, greet_people).chain()));
     }
 }
 
